@@ -11,3 +11,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.bgDark {
+  --bg-opacity: 1;
+  background-color: #151515;
+  background-color: rgba(21, 21, 21, var(--bg-opacity));
+}
