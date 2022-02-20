@@ -17,3 +17,9 @@
   background-color: #151515;
   background-color: rgba(21, 21, 21, var(--bg-opacity));
 }
+
+.bgDusk {
+  --bg-opacity: 1;
+  background-color: #202022;
+  background-color: rgba(32, 32, 34, var(--bg-opacity));
+}

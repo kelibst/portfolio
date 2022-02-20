@@ -1,12 +1,39 @@
 import React from "react";
-
+import Skill from "./Skill";
 const ProjectsSection = () => {
+  const lang = ["HTML", "CSS / SASS", "JavaScript", "Ruby", "Dart"];
+  const libraries = [
+    "Bootstrap",
+    "UI Kit",
+    "React",
+    "Redux",
+    "Tailwind",
+    "Ruby on Rails",
+    "Flutter",
+  ];
+  const testing = ["RSpec", "Capybara", "Jest", "React Testing Library"];
+  const Databases = ["PostgreSQL", "MySQL", "SQLite3"];
+  const Other = [
+    "Netlify",
+    "Git",
+    "version",
+    "control",
+    "system",
+    "Linux",
+    "Heroku",
+    "Pair",
+    "programming",
+  ];
   return (
-    <section className="pe-8">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-      repellat hic voluptatem iure rerum maxime corrupti quia, commodi ratione
-      sed provident consequuntur asperiores cupiditate tempora consequatur. Fuga
-      consectetur reiciendis praesentium.
+    <section className="w-1/2">
+      <Skill skil={{ languages: lang, name: "Languages:" }} />
+      <Skill
+        skil={{ languages: libraries, name: "Frameworks and libraries:" }}
+      />
+      <Skill skil={{ languages: testing, name: "Testing:" }} />
+      <Skill skil={{ languages: Databases, name: "Databases:" }} />
+
+      <Skill skil={{ languages: Other, name: "Others:" }} />
     </section>
   );
 };

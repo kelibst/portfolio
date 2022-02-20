@@ -2,12 +2,12 @@ import React from "react";
 
 const UserSection = () => {
   return (
-    <section className="">
-      <div className="user-cont">
+    <section className="w-1/2">
+      <div className="user-cont fixed w-1/2">
         <h1 className="text-4xl font-bold leading-tight lg:text-6xl lg:leading-none font-Rubik">
           Hello, I am Keli
         </h1>
-        <h6 className="text-gray-300 my-8 pr-32 font-Rubik leading-8">
+        <h6 className="text-gray-300 my-8 mr-32 pr-32 font-Rubik leading-8">
           I’m a Staff Software Engineer working on Front-End Experiences at
           Algolia. I can't shut up about test-driven development and
           utility-first CSS. I also host the Developer Experience podcast, and

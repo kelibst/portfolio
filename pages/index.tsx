@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="xl:max-w-scree-2xl">
       <Head>
         <title>Kekeli Dogbevi Jiresse</title>
         <meta
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="p-8 lg:p-32 h-screen flex flex-row justify-between  xl:max-w-screen-2xl">
+      <main className="p-8 lg:p-32 h-screen flex flex-row justify-between  relative">
         <UserSection />
         <ProjectsSection />
       </main>
