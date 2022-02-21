@@ -27,7 +27,7 @@ const ProjectsSection = () => {
     "programming",
   ];
   return (
-    <section className="w-1/2 xl:pr-8 xl:my-8">
+    <section className="w-1/2 xl:pr-8 xl:my-8 z-20">
       <Skill skil={{ languages: lang, name: "Languages:" }} />
       <Skill
         skil={{ languages: libraries, name: "Frameworks and libraries:" }}

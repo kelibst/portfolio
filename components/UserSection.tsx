@@ -8,7 +8,7 @@ const UserSection = () => {
   return (
     <section className="w-1/2 xl:pl-8 xl:my-8">
       <div className="static flex flex-col justify-between w-full md:max-w-408 lg:max-w-496 md:fixed md:h-screen">
-        <div>
+        <div className="w-1/2">
           <h1 className="text-4xl font-bold leading-tight lg:text-6xl lg:leading-none font-Rubik max-w-screen-sm">
             Hello, I am Keli
           </h1>
