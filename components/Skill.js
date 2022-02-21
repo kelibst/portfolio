@@ -27,8 +27,9 @@ const Skill = (props) => {
     >
       <h6 className="text-xl mb-9">{skil?.name}</h6>
       <div className="flex flex-wrap">
-        {skil?.languages.map((val) => (
+        {skil?.languages.map((val, key) => (
           <div
+            key={key}
             style={{ backgroundColor: getRandomColor() }}
             className="shadow-lg mr-4 rounded ease-in-out duration-300
         hover:scale-110 px-4 py-2 my-4"
