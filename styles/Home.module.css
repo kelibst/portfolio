@@ -27,11 +27,11 @@
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(257px, 1fr));
-  margin: 2rem;
+  margin: 1rem;
 }
 .proCard {
   max-width: 300px;
-  border-radius: 2rem;
+  border-radius: 5px;
   position: relative;
 }
 .proCardIcon {
@@ -40,10 +40,10 @@
   min-height: 200px;
 }
 .proImg {
-  width: 100%;
-  border-radius: 2rem;
-  min-height: 200px;
+  width: 100% !important;
+  min-height: 200px !important;
   cursor: pointer;
+  position: relative !important;
 }
 
 .proTech {
