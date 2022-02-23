@@ -16,13 +16,13 @@ const Project = ({ proj }) => {
       </div>
       <a
         href={proj?.link}
-        className="text-lg mb-6 text-gray-200 underline hover:text-white"
+        className="text-lg mb-6 text-gray-200 hover:text-white"
       >
         {proj?.name}
       </a>
-      <div className="flex mt-6 flex-row justify-between text-md underline">
+      <div className="flex mt-6 flex-row flex-wrap justify-between text-md underline">
         {proj?.stack.map((stack) => (
-          <span className="mr-2">{stack}</span>
+          <span className="mr-2 mt-3">{stack}</span>
         ))}
       </div>
     </div>

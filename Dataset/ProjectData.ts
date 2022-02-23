@@ -55,19 +55,13 @@ const ProjectData: Array<Project> = [
 "NPM",
 "SCSS"]),
 
- new Project("Hospitals Reviews Manager", 
-    "https://raw.githubusercontent.com/kelibst/hospitalreviews-react/main/screenshot.gif", 
-    "https://hospitalreviews-react.herokuapp.com/", 
+ new Project("React Native  guessing app", 
+    "https://raw.githubusercontent.com/kelibst/native-guess/main/screenshot.gif", 
+    "https://github.com/kelibst/native-guess", 
     "", 
-    ["Ruby",
-"Rails",
-"React",
-"Redux",
-"Heroku",
-"StyleLint",
-"Eslint",
+    ["Expo",
 "NPM",
-"SCSS"]),
+"React Native"]),
 ]
 
 export default ProjectData
