@@ -23,3 +23,32 @@
   background-color: #202022;
   background-color: rgba(32, 32, 34, var(--bg-opacity));
 }
+.all {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(257px, 1fr));
+  margin: 2rem;
+}
+.proCard {
+  max-width: 300px;
+  border-radius: 2rem;
+  position: relative;
+}
+.proCardIcon {
+  margin-bottom: 1rem;
+  min-width: 257px;
+  min-height: 200px;
+}
+.proImg {
+  width: 100%;
+  border-radius: 2rem;
+  min-height: 200px;
+  cursor: pointer;
+}
+
+.proTech {
+  position: absolute;
+  top: 1rem;
+  padding-left: 1rem;
+  text-decoration: underline;
+}
