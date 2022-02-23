@@ -1,5 +1,6 @@
 import SkillData from "../Dataset/SkillData";
 import Style from "../styles/Home.module.css";
+import ProjectData from "../Dataset/ProjectData";
 import Project from "./Project";
 
 import Skill from "./Skill";
@@ -11,12 +12,9 @@ const ProjectsSection = () => {
       ))}
 
       <div className={[Style?.all].join(" ")}>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        {ProjectData.map((proj) => (
+          <Project proj={proj} />
+        ))}
       </div>
     </section>
   );

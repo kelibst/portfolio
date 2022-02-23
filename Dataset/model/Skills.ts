@@ -11,11 +11,15 @@ class Project {
     name: string
     image: string
     link: string
+    liveLink: string
+    stack: Array<string>
     
-    constructor(name: string, image: string, link: string) {
+    constructor(name: string, image: string, link: string, liveLink: string, stack: Array<string>) {
         this.name = name,
         this.image = image,
-        this.link = link
+        this.link = link,
+        this.liveLink = liveLink
+        this.stack = stack
     }
 }
 
