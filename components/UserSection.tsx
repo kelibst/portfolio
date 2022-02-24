@@ -6,13 +6,13 @@ import { IoLogoGithub, IoLogoTwitter } from "react-icons/io5";
 import { FaRegShareSquare } from "react-icons/fa";
 const UserSection = () => {
   return (
-    <section className="w-1/2 xl:pl-8 xl:my-8">
+    <section className="md:w-1/2 xl:my-8">
       <div className="static flex flex-col justify-between w-full md:max-w-408 lg:max-w-496 md:fixed md:h-screen">
-        <div className="w-1/2">
+        <div className="md:w-1/2 mx-6 md:mx-0">
           <h1 className="text-4xl font-bold leading-tight lg:text-6xl lg:leading-none font-Rubik max-w-screen-sm">
             Hello, I am Keli
           </h1>
-          <h6 className="text-gray-300 my-8 pr-32 font-Rubik leading-8 max-w-screen-sm">
+          <h6 className="text-gray-300 my-8 md:pr-32 font-Rubik leading-8 max-w-screen-sm">
             I’m a Staff Software Engineer working on Front-End Experiences at
             Algolia. I can't shut up about test-driven development and
             utility-first CSS. I also host the Developer Experience podcast, and
@@ -85,7 +85,7 @@ const UserSection = () => {
                 className="rounded-full"
               />
             </div>
-            <ul className="inline-flex">
+            <ul className="md:inline-flex">
               <li className="pl-3">
                 <a
                   className="flex justify-center items-center hover:text-gray-400"

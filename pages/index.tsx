@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className="max-w-screen-2xl block my-2 mx-auto">
+    <div className="md:max-w-screen-2xl md:block md:my-2 mx-auto">
       <Head>
         <title>Kekeli Dogbevi Jiresse</title>
         <meta
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        <div className="flex flex-row justify-between  xl:max-w-screen-2xl">
+        <div className="md:flex flex-row justify-between  xl:max-w-screen-2xl">
           <UserSection />
           <ProjectsSection />
         </div>

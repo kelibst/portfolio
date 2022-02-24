@@ -39,6 +39,9 @@
   min-width: 257px;
   min-height: 200px;
 }
+.proCardIcon > span {
+  position: inherit !important;
+}
 .proImg {
   width: 100% !important;
   min-height: 200px !important;

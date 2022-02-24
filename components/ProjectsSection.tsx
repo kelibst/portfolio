@@ -6,7 +6,7 @@ import Project from "./Project";
 import Skill from "./Skill";
 const ProjectsSection = () => {
   return (
-    <section className="w-1/2 xl:pr-8 xl:my-8 z-20">
+    <section className="lg:w-1/2 xl:pr-8 xl:my-8 z-20">
       {SkillData.map((skil) => (
         <Skill skil={skil} key={skil.name} />
       ))}

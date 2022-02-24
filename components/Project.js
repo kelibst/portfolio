@@ -1,5 +1,6 @@
 import Style from "../styles/Home.module.css";
 import Image from "next/image";
+import { FaRegShareSquare } from "react-icons/fa";
 
 const Project = ({ proj }) => {
   return (
@@ -14,11 +15,13 @@ const Project = ({ proj }) => {
       </div>
       <a
         href={proj?.link}
-        className="text-lg mb-6 text-gray-300 underline hover:text-white"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-lg text-gray-300 flex-row items-center flex underline hover:text-white"
       >
-        {proj?.name}
+        {proj?.name} <FaRegShareSquare className="text-md ml-3" />
       </a>
-      <div className="flex mt-6 flex-row flex-wrap justify-between text-md">
+      <div className=" mt-6 flex flex-wrap justify-between text-md">
         {proj?.stack.map((stack) => (
           <span className="mr-2 mt-3">{stack}</span>
         ))}
