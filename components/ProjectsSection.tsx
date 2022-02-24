@@ -11,7 +11,7 @@ const ProjectsSection = () => {
         <Skill skil={skil} key={skil.name} />
       ))}
 
-      <div className={[Style?.all].join(" ")}>
+      <div id="projects" className={[Style?.all].join(" ")}>
         {ProjectData.map((proj) => (
           <Project proj={proj} />
         ))}
