@@ -13,7 +13,7 @@ const ProjectsSection = () => {
 
       <div id="projects" className={[Style?.all].join(" ")}>
         {ProjectData.map((proj) => (
-          <Project proj={proj} />
+          <Project proj={proj} key={proj.name} />
         ))}
       </div>
     </section>

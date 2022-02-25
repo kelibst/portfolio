@@ -16,7 +16,7 @@ const UserSection = () => {
           </h1>
           <h6 className="text-gray-300 my-8 md:pr-32 font-Rubik leading-8 max-w-screen-sm">
             I &apos; m a Staff Software Engineer working on Front-End
-            Experiences at Algolia. I can't shut up about test-driven
+            Experiences at Algolia. I can&apos;t shut up about test-driven
             development and utility-first CSS. I also host the Developer
             Experience podcast, and share what I learn on my blog frontstuff.io,
             or at meetups and conferences.

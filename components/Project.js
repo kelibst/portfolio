@@ -26,7 +26,9 @@ const Project = ({ proj }) => {
       </a>
       <div className=" mt-6 flex flex-wrap justify-between text-md">
         {proj?.stack.map((stack) => (
-          <span className="mr-2 mt-3">{stack}</span>
+          <span className="mr-2 mt-3" key={stack}>
+            {stack}
+          </span>
         ))}
       </div>
     </div>
