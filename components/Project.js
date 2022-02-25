@@ -4,7 +4,10 @@ import { FaRegShareSquare } from "react-icons/fa";
 
 const Project = ({ proj }) => {
   return (
-    <div className={[Style.proCard, Style.bgDusk, "px-2 py-2"].join(" ")}>
+    <div
+      className={[Style.proCard, Style.bgDusk, "px-2 py-2"].join(" ")}
+      key={proj.name}
+    >
       <div className={[Style.proCardIcon].join(" ")}>
         <Image
           src={proj?.image}

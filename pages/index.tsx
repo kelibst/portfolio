@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
   return (
-    <div className="md:max-w-screen-2xl md:block md:my-2 mx-auto">
+    <div className="md:max-w-screen-2xl md:block md:my-2 mx-auto scroll-smooth ease-in-out duration-300">
       <Head>
         <title>Kekeli Dogbevi Jiresse</title>
         <meta
