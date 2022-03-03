@@ -4,6 +4,7 @@ import ProjectData from "../Dataset/ProjectData";
 import Project from "./Project";
 
 import Skill from "./Skill";
+import Contact from "./Contact";
 const ProjectsSection = () => {
   return (
     <section className="lg:w-1/2 xl:pr-8 xl:my-8 z-20">
@@ -16,6 +17,7 @@ const ProjectsSection = () => {
           <Project proj={proj} key={proj.name} />
         ))}
       </div>
+      <Contact />
     </section>
   );
 };

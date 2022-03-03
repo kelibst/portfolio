@@ -60,14 +60,13 @@ const UserSection = () => {
               </Link>
             </li>
             <li className="link mt-6">
-              <a
-                href="#"
-                className="inline-flex items-center hover:text-gray-400 focus:text-gray-400 active:text-gray-400 group text-white duration-300 ease-in-out"
-              >
-                <span className="text-xs tracking-wide">0.3</span>
-                <span className="inline-block w-10 h-px mx-8  group-hover:w-28 group-focus:w-28 group-active:w-28 bg-dawn group-hover:bg-gray-400 group-focus:bg-gray-400 ease-in-out duration-300  w-38 bg-white"></span>
-                <span className="text-xs uppercase">About</span>
-              </a>
+              <Link href="/#contact" scroll={true}>
+                <a className="inline-flex items-center hover:text-gray-400 focus:text-gray-400 active:text-gray-400 group text-white duration-300 ease-in-out">
+                  <span className="text-xs tracking-wide">0.3</span>
+                  <span className="inline-block w-10 h-px mx-8  group-hover:w-28 group-focus:w-28 group-active:w-28 bg-dawn group-hover:bg-gray-400 group-focus:bg-gray-400 ease-in-out duration-300  w-38 bg-white"></span>
+                  <span className="text-xs uppercase">Contact</span>
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
