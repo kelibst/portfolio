@@ -15,11 +15,20 @@ const UserSection = () => {
             Hello, I am Keli
           </h1>
           <h6 className="text-gray-300 my-8 md:pr-32 font-Rubik leading-8 max-w-screen-sm">
-            I &apos; m a Staff Software Engineer working on Front-End
-            Experiences at Algolia. I can&apos;t shut up about test-driven
-            development and utility-first CSS. I also host the Developer
-            Experience podcast, and share what I learn on my blog frontstuff.io,
-            or at meetups and conferences.
+            Hello, I am Kekeli. I am currently a Freelance{" "}
+            <span className="text-blue-400 font-bold underline">
+              Full-Stack
+            </span>{" "}
+            Web Developer On{" "}
+            <span className="text-blue-400 font-bold underline">Upwork</span>. I
+            have a degree in Public Health (Health Information), but my passion
+            for software development led me to pursue a career in remote
+            software development. For the past couple of years, I have worked
+            remotely through pair programming with students from all over the
+            world to develop a very deep understanding of HTML, CSS, JavaScript,
+            React, Redux, Ruby, and Ruby on Rails. I&apos;m looking to connect
+            with developers from all over the world, and I&apos;d love to keep
+            in touch.
           </h6>
           <div className="user-btn-cont">
             <a
