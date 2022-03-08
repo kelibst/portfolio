@@ -33,7 +33,7 @@ const UserSection = () => {
           <div className="user-btn-cont">
             <a
               className="text-white hover:text-gray-200 capitalize underline font-bold border-white"
-              href="http://google.com"
+              href="mailto:kbooster17@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,7 +42,7 @@ const UserSection = () => {
 
             <a
               className="text-white hover:text-gray-200 capitalize ml-8 underline font-bold border-white"
-              href="http://google.com"
+              href="https://docs.google.com/document/d/1WIx9CNBZwBGJxt4wfF8s1SBZFqzqzSJfbnflrf1NGbY/edit?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >

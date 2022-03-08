@@ -5,11 +5,11 @@ import { IoCall } from "react-icons/io5";
 import { IoMailSharp } from "react-icons/io5";
 const Contact = () => {
   return (
-    <div className="block max-w-screen-sm text-white" id="contact">
+    <div className="block m-4 max-w-screen-sm text-white" id="contact">
       <h6 className="lg:text-4xl text-3xl lg:leading-none text-center my-8 font-bold font-Rubik">
         Contact me
       </h6>
-      <div className="flex justify-around">
+      <div className="md:flex justify-around">
         <div className="flex flex-row items-center mr-4">
           <div
             className={[Style.bgDusk, "w-16 icons, p-6 rounded-full"].join(" ")}
